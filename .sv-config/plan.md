@@ -2,9 +2,9 @@
 
 Agregar autenticación real (email + contraseña), control de roles (Administrador / Operador), bloqueo por intentos fallidos y protección de rutas. Toda la funcionalidad actual (Inventario, Carga, Predictivo, Reportes) se conserva intacta.
 
-## Backend — Lovable Cloud
+## Backend — Supabase
 
-Habilito Lovable Cloud (Supabase administrado). Razón: bcrypt, unicidad de email, conteo de intentos fallidos y bloqueo de 15 min requieren persistencia server-side. Supabase Auth ya hace hashing seguro de contraseñas (bcrypt) y unicidad de email — no se almacenan contraseñas en texto plano nunca.
+Habilito Supabase (Supabase administrado). Razón: bcrypt, unicidad de email, conteo de intentos fallidos y bloqueo de 15 min requieren persistencia server-side. Supabase Auth ya hace hashing seguro de contraseñas (bcrypt) y unicidad de email — no se almacenan contraseñas en texto plano nunca.
 
 ### Esquema
 
